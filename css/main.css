@@ -1,0 +1,31 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+	text-align: center;
+}
+div {
+    margin: auto;
+    text-align: center;   
+}
+#carousel {
+    
+/* without width and heigh it's for the full witdth */
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+    clear: both;
+}
+#carousel ul {
+	width: 3000px;
+	padding: 0;
+	margin: 0;
+}
+#carousel ul li {
+	width: 600px;
+	text-align: center;
+	height:	400px;
+	list-style:	none;
+	float:	left;
+}
